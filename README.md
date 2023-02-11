@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+### `Привіт всім кто зайшов на даний проект!`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+В данному проекті я виконав роботу переді мною постала задача зробити веб додаток дані для якого будуть приходити з безкоштовного відкритого [Marvel API](https://developer.marvel.com/).
 
-## Available Scripts
+Проект я ініціював на [Create React App](https://create-react-app.dev/).
+
+Стек:
+[React](https://uk.reactjs.org/), [Redux](https://redux.js.org/), [Redux-thunk](https://redux.js.org/usage/writing-logic-thunks), [React router](https://reactrouter.com/en/main).
+
+### `Доступні скрипти`
+
+В директорії проекту ти можеш запустити:
+
+### `npm start`
+
+Запускає додаток в режимі розробки.\
+Відкрий [http://localhost:3000](http://localhost:3000) в браузері.
+
+Сторінка перезавантажується коли відбуваються зміни.\
+Також ти можеш побачити помилки лінтеру в консолі.
+
+### `npm run build`
+
+Збирає додаток для продакшена в папку build.
+Він правильно поєднує React у робочому режимі та оптимізує збірку для найкращої продуктивності.
+
+Збірку мінімізовано, а імена файлів містять хеші.
+Ваш додаток готовий до розгортання!
+
+### `Hello to everyone who visited this project!`
+
+In this project, I completed the work, I was faced with the task of making a web application for which data will come from the free open [Marvel API](https://developer.marvel.com/).
+
+I initiated the project at [Create React App](https://create-react-app.dev/).
+
+Stack:
+[React](https://uk.reactjs.org/), [Redux](https://redux.js.org/), [Redux-thunk](https://redux.js.org/usage/ writing-logic-thunks), [React router](https://reactrouter.com/en/main).
+
+### `Available scripts`
 
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Starts the application in development mode.\
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The page is reloaded when changes are made.\
+You can also see linter errors in the console.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Collects the application for production in the build folder.
+It properly bundles React in production mode and optimizes the build for best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The build is minimized and the filenames contain hashes.
+Your app is ready to deploy!
