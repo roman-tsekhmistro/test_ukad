@@ -1,0 +1,8 @@
+@import '../../assets/styles/_vars';
+
+.header {
+	display: flex;
+	align-items: center;
+	gap: 55px;
+	background-color: $mainBgColor;
+}

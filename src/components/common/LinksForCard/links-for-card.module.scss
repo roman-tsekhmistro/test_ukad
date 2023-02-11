@@ -1,0 +1,18 @@
+.links_wrapper {
+	display: flex;
+	gap: 20px;
+
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: -0.03em;
+	text-transform: uppercase;
+
+	> a {
+		text-decoration: none;
+		&:hover {
+			cursor: pointer;
+			text-decoration: underline;
+		}
+	}
+}

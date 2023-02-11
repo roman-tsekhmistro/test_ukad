@@ -1,0 +1,32 @@
+.slider {
+	position: relative;
+	width: 100%;
+	height: fit-content;
+}
+
+.button_next,
+.button_prev {
+	position: absolute;
+	top: 45%;
+	z-index: 2;
+
+	img {
+		width: 68px;
+		height: 68px;
+		opacity: 0.75;
+
+		&:hover {
+			cursor: pointer;
+			opacity: 1;
+		}
+	}
+}
+
+.button_next {
+	right: -25px;
+}
+
+.button_prev {
+	transform: rotate(180deg);
+	left: -25px;
+}

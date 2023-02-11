@@ -1,0 +1,9 @@
+@import '../../assets/styles/_vars';
+
+.footer {
+	background-color: $mainBgColor;
+	color: #fff;
+	bottom: 0;
+	display: flex;
+	padding: 27px 29px;
+}

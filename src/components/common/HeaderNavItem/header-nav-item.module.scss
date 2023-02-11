@@ -1,0 +1,18 @@
+.item {
+	display: flex;
+	align-items: center;
+	color: #fff;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+
+	padding: 25px 25px 25.7px;
+	transition: background-color 0.25s;
+
+	&.active,
+	&:hover {
+		background-color: #012228;
+		cursor: pointer;
+	}
+}
