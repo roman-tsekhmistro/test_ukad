@@ -1,6 +1,7 @@
 {
 	"name": "ukad-test",
 	"version": "0.1.0",
+	"page-url": "https://roman-tsekhmistro.github.io/",
 	"homepage": "https://roman-tsekhmistro.github.io/",
 	"private": true,
 	"dependencies": {
