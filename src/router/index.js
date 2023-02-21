@@ -1,6 +1,7 @@
+import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import BasicLayout from '../components/Layout';
 import routes from '../api/routes';
+import BasicLayout from '../components/Layout';
 
 const Router = () => {
 	return (

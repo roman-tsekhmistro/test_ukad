@@ -1,38 +1,27 @@
-import styles from './slider.module.scss';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, A11y } from 'swiper';
+import React from 'react';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import HeroCard from '../common/HeroCard';
-import ArrowNext from '../../assets/images/arrow_next.svg';
-import 'swiper/scss';
-import 'swiper/scss/navigation';
-import 'swiper/scss/autoplay';
+import Slider from 'react-slick';
+import './slider.scss';
 
-const Slider = ({ heroes }) => {
+const HeroesSlider = ({ heroes }) => {
+	const settings = {
+		draggable: false,
+		infinite: false,
+		speed: 500,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+	};
+
 	return (
-		<Swiper
-			className={styles.slider}
-			spaceBetween={17}
-			modules={[Navigation, A11y]}
-			navigation={{ nextEl: '#button_next', prevEl: '#button_prev' }}
-			slidesPerView={4}
-		>
-			<button id='button_next' className={styles.button_next}>
-				<img src={ArrowNext} alt='arrow' />
-			</button>
-			<button id='button_prev' className={styles.button_prev}>
-				<img src={ArrowNext} alt='arrow' />
-			</button>
+		<Slider {...settings}>
 			{heroes ? (
-				heroes.map((hero, index) => (
-					<SwiperSlide key={index}>
-						<HeroCard hero={hero} />
-					</SwiperSlide>
-				))
+				heroes.map((hero, index) => <HeroCard key={index} hero={hero} />)
 			) : (
 				<h1>Fetching</h1>
 			)}
-		</Swiper>
+		</Slider>
 	);
 };
-
-export default Slider;
+export default HeroesSlider;

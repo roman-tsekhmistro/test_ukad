@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom';
-import styles from './header-nav-item.module.scss';
-import logo from '../../../assets/images/UKAD_logo.svg';
 import classNames from 'classnames';
+import { Link } from 'react-router-dom';
+import logo from '../../../assets/images/UKAD_logo.svg';
+import styles from './header-nav-item.module.scss';
 
 const HeaderNavItem = ({ navImg, navText, path, isActive }) => {
 	return (

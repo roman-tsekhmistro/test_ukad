@@ -16,9 +16,11 @@
 		"react-redux": "^8.0.5",
 		"react-router-dom": "^6.8.0",
 		"react-scripts": "5.0.1",
+		"react-slick": "^0.29.0",
 		"redux": "^4.2.1",
 		"redux-devtools-extension": "^2.13.9",
 		"redux-thunk": "^2.4.2",
+		"slick-carousel": "^1.8.1",
 		"swiper": "^9.0.3",
 		"the-new-css-reset": "^1.8.3"
 	},
@@ -46,5 +48,21 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"description": "В данному проекті я виконав роботу переді мною постала задача зробити веб додаток дані для якого будуть приходити з безкоштовного відкритого [Marvel API](https://developer.marvel.com/).",
+	"main": "index.js",
+	"devDependencies": {
+		"eslint": "^8.34.0",
+		"eslint-config-react-app": "^7.0.1",
+		"eslint-plugin-react": "^7.32.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/roman-tsekhmistro/test_ukad.git"
+	},
+	"author": "Roman Tsekhmistro <roman-tsekhmistro@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/roman-tsekhmistro/test_ukad/issues"
 	}
 }

@@ -1,0 +1,25 @@
+.slick-prev,
+.slick-next {
+	width: 68px;
+	height: 68px;
+	z-index: 2;
+}
+
+.slick-disabled {
+	visibility: hidden;
+
+	&::before {
+		visibility: hidden;
+	}
+}
+
+.slick-prev {
+	transform: rotate(180deg);
+}
+
+.slick-prev:before,
+.slick-next:before {
+	height: 68px;
+	content: url('../../assets/images/Mask.svg');
+	opacity: 1;
+}

@@ -2,7 +2,7 @@
 
 В данному проекті я виконав роботу переді мною постала задача зробити веб додаток дані для якого будуть приходити з безкоштовного відкритого [Marvel API](https://developer.marvel.com/).
 
-Проект я ініціював на [Create React App](https://create-react-app.dev/).
+Проект я ініціював на [Create React App](https://create-react-app.dev/) та використовував [NodeJS v.17.9.1](https://nodejs.org/fr/blog/release/v17.9.1/).
 
 Стек:
 [React](https://uk.reactjs.org/), [Redux](https://redux.js.org/), [Redux-thunk](https://redux.js.org/usage/writing-logic-thunks), [React router](https://reactrouter.com/en/main).
@@ -10,6 +10,10 @@
 ### `Доступні скрипти`
 
 В директорії проекту ти можеш запустити:
+
+### `npm install`
+
+Це обов'язкова команда для того щоб встановити всі залежності в програмі та отримати вожливість подальшої роботи з проектом.
 
 ### `npm start`
 
